@@ -1,0 +1,465 @@
+body{
+    background-color: darkturquoise;
+    color: white;
+    margin: 0px;
+}
+.adiguru{
+    margin: 7% 0% 2% 0%;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 20px red;
+    animation-name: focus;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+}
+/* adiguru anmation */
+@keyframes focus{
+    0%{box-shadow: 2px 2px 20px red;}
+    20%{box-shadow: 2px 2px 20px 50px yellow;}
+    40%{box-shadow: 2px 2px 20px white;}
+    60%{box-shadow: 2px 2px 20px 50px green;}
+    80%{box-shadow: 2px 2px 20px cyan;}
+    100%{box-shadow: 2px 2px 20px 50px chartreuse;}
+}
+
+.companyname{
+    padding: 1%;
+    margin-left: 8px;
+    background-color: red;
+    width:fit-content;
+    border-radius:0px 0px 20px 20px;
+    box-shadow: inset 2px 2px 10px black;
+}
+
+/* DASHBOARD CSS */
+nav{
+    height: 50px;
+}
+.adigurunav{
+    height: 50px;
+    width: 70px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 20px red;
+    animation-name: focus;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+}
+.carouse img{
+    height: 540px;
+    
+}
+.carouse p,h5{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    
+    /*background-color: red;*/
+    border-radius: 20px;
+}
+
+.welcomeDiv {
+    background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg");
+    margin: 35px 70px 5px 70px;
+    text-align: center;
+    color: white;
+    box-shadow: 2px 2px 10px black;
+    border-radius: 20px;
+}
+
+.revolutionaries {
+    height: 70px;
+    width: 100px;
+    margin: 10px;
+    margin-bottom: 0px;
+    border-radius: 20%;
+    border-width: thick;
+    border-style: groove;
+    border-color: black;
+    
+}
+
+.revolutionaries:hover {
+    border: none;
+    border-style: none;
+    box-shadow: 2px 2px 20px red;
+}
+.bigImage{
+    width: 100%;
+    border-radius: 20px;
+
+}
+.lcd {
+    background-image: url(34.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px 20px orange;
+    width: 24%;
+    height: 300px;
+    float: left;
+    margin: 30px 0.5% 3px 0.5%;
+    overflow: hidden;
+    border-radius: 20px;
+    border-width: thick;
+    border-style: none;
+    border-color: white;
+    overflow: hidden;
+    overflow-x: scroll;
+    overflow-y:scroll ;
+}
+
+.lcd:hover {
+    border: none;
+    border-style: none;
+    box-shadow: 2px 2px 20px red;
+}
+
+.container-image {
+    height: 40%;
+    width: 60%;
+    align-self: center;
+    margin: 20% 15% 5px 19%;
+    border-radius: 20px;
+    border-style: outset;
+    border-color: grey;
+    box-shadow: 2px 2px 20px rebeccapurple;
+}
+
+.container-image:hover {
+    box-shadow: 2px 2px 20px orange;
+    border-style: none;
+}
+
+.heading {
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 7px;
+}
+
+.namefoot {
+    text-align: center;
+    color: rebeccapurple;
+    font-weight: bold;
+    font-size: 20px;
+    font-stretch: extra-condensed;
+    box-shadow: 2px 2px 20px saddlebrown;
+    width: 95%;
+    border-radius: 0px 20px 20px 0px;
+    overflow: hidden;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.textfoot {
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+    font-stretch: extra-condensed;
+    box-shadow: 2px 2px 20px saddlebrown;
+    width: 95%;
+    margin: 20px 2.5% 5px 2.5%;
+    overflow: hidden;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: white;
+    box-shadow: 2px 2px 20px 5px red;
+}
+
+.add_btn {
+    background-color: red;
+    margin-top: 2px;
+    border-radius: 10px;
+    width: 10%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-style: none;
+    font-size: larger;
+}
+
+.add_btn:hover {
+    background-color: white;
+    color: green;
+    box-shadow: 2px 2px 20px black;
+}
+
+#marquee_div {
+    width: 95%;
+    margin: 0px 2.5% 0px 2.5%;
+}
+
+.contact {
+    margin-top: 20px;
+    width: 100%;
+    background-color: black;
+    height: 350px;
+    position: relative
+}
+
+.contact_child {
+    width: 48%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 2px;
+}
+
+#container-f {
+    height: 690px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#contact_image {
+    width: 50%;
+    margin: 10% 10% 5% 20%;
+    box-shadow: 2px 2px 20px 5px white;
+    border-radius: 20px;
+}
+
+.contact_img_label {
+    color: white;
+    font-weight: bold;
+    width: 60%;
+    align-items: center;
+    text-align: center;
+    margin-left: 15%;
+    box-shadow: 2px 2px 20px orange;
+}
+
+.contact_img_label_call {
+    color: white;
+    font-weight: bold;
+    width: 60%;
+    align-items: center;
+    text-align: center;
+    box-shadow: 2px 2px 20px orange;
+}
+
+.social_media {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 0% 5% 4% 5%;
+    box-shadow: 2px 2px 20px 5px red;
+}
+
+.social_media:hover {
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px white;
+    border-style: groove;
+    border-color: red;
+    border-width: thick;
+}
+
+#address {
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px white;
+}
+
+.popup_img {
+    margin: 10px 25% 10px 25%;
+    box-shadow: 2px 2px 20px 20px orange;
+    border-radius: 20px;
+}
+
+.popup_label {
+    align-items: center;
+    background-color: red;
+    color: white;
+    padding: 2%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px black;
+}
+.lango{
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px teal;
+}
+
+.headers{
+    margin: 3% 0% 0% 0%;
+    width:40%;
+    background-color: red;
+    box-shadow:  inset 2px 2px 20px black;
+    border-radius: 0px 40px 40px 0px;
+    color: white;
+}
+
+.gallery{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    margin-bottom: 0px;
+    border-radius: 20px;
+    border-width: thick;
+    border-style: groove;
+    border-width: 15px;
+    border-color: black;
+    
+}
+.gallery:hover{
+    border-width: 20px;
+    border-color: red;
+}
+
+.about{
+    background-image: url(https://images.unsplash.com/photo-1603263297544-979bfcde910f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG5hdHVyZSUyMGZvcmVzdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    width: 80%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 7%;
+    border-radius: 20px;
+    box-shadow: inset 2px 2px 20px 10px black;
+    padding: 20px;
+}
+.about img{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 30px 20px orange;
+    margin-top: 2%;
+    margin-bottom: 20px;
+}
+.about h3{
+    background-color: red;
+    border-radius: 20px;
+    width: 50%;
+}
+
+.contat{
+    background-image: url(https://images.unsplash.com/photo-1603263297544-979bfcde910f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG5hdHVyZSUyMGZvcmVzdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80%;
+    min-height: 70vh;
+    margin-top: 7%;
+    border-radius: 20px;
+    box-shadow: inset 2px 2px 20px 10px black;
+    padding: 20px;
+    color: white;
+}
+.contat img{
+    width: 10%;
+    border-radius: 50%;
+    box-shadow: 2px 2px 20px 10px black;
+}
+.movingLion{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 20px 10px black;
+    margin-bottom: 20px;
+}
+.contat a{
+    color: white;
+}
+
+.career{
+    background-image: url(https://images.unsplash.com/photo-1603263297544-979bfcde910f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG5hdHVyZSUyMGZvcmVzdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    margin-top: 3%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40%;
+    box-shadow:inset 2px 2px 30px 10px black;
+}
+.career input{
+    border-radius: 20px;
+    width: 70%;
+    height: 7vh;
+    margin: 7% 2% 2% 2% ;
+    border-style: none;
+    background-color: darkgreen;
+    box-shadow: inset 2px 2px 20px black;
+    padding: 4%;
+}
+.career button{
+    background-color: red;
+    width: 40%;
+    height: 50px;
+    border-style: none;
+    box-shadow:inset 2px 2px 20px black ;
+    border-radius: 20px;
+    color: white;
+
+}
+
+@media screen and (max-width: 768px) {
+    .lcd {
+        width: 96%;
+        height: 300px;
+        margin-top: 5px;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    #container-f {
+        height: 620px;
+        width: 100%;
+        margin-bottom: 20px;
+        overflow: hidden;
+        overflow-x: scroll;
+        overflow-y: scroll;
+    }
+    .contact {
+        margin-top: 20px;
+        width: 100%;
+        background-color: black;
+        height: 200px;
+    }
+    .contact_child {
+        width: 50%;
+        height: 100%;
+        float: left;
+        margin-left: 0px;
+    }
+    .social_media {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        margin: 0% 2% 7% 2%;
+        box-shadow: 2px 2px 20px 5px red;
+    }
+    .social_media:hover {
+        border-radius: 5px;
+        box-shadow: 2px 2px 20px white;
+        border-style: groove;
+        border-color: red;
+        border-width: thick;
+    }
+    #call {
+        display: none;
+    }
+    #mail {
+        display: none;
+    }
+    #location {
+        display: none;
+    }
+    #address {
+        display: none;
+    }
+    .contact_img_label_call {
+        display: none;
+    }
+    .popup_img {
+        margin: 2.5%;
+        margin-bottom: 30px;
+        width: 95%;
+        height: 190px;
+    }
+    
+}
